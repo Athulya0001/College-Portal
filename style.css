@@ -164,13 +164,32 @@ li:hover a {
     grid-column: span 2;
 }
 
-footer div {
+.foot {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
     background-color: #000E5E;
     color: white;
+}
+
+.foot .right {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    align-items: center;
+}
+
+.right .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.foot p {
+    margin: 0;
+    padding: 0;
 }
 
 .course {
